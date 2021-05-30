@@ -325,6 +325,11 @@ else if Pedersen = pg ; open where this main files are
     gui_destroy()
     Run, C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PostgreSQL 13\pgAdmin 4.lnk
 }
+else if Pedersen = book ; open where this main files are
+{
+    gui_destroy()
+    Run, C:\Users\Dorian\Documents\Programming Books
+}
 
 ;-------------------------------------------------------------------------------
 ;;; MISCELLANEOUS ;;;
