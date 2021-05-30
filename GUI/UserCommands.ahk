@@ -129,10 +129,15 @@ else if Pedersen = url ; Open an URL from the clipboard (naive - will try to run
     gui_destroy()
     run %ClipBoard%
 }
-else if Pedersen = git ; 
+else if Pedersen = gitucr ; 
 {
     gui_destroy()
     Run, https://git.ucr.ac.cr/
+}
+else if Pedersen = git ; 
+{
+    gui_destroy()
+    Run, https://github.com/dorianprogrammer?tab=repositories
 }
 else if Pedersen = wo ; 
 {
